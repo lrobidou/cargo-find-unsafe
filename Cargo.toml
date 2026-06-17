@@ -1,0 +1,15 @@
+[package]
+name = "cargo-find-unsafe"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+syn = { version = "2", features = ["full", "visit"] }
+quote = "1"
+walkdir = "2"
+clap = { version = "4", features = ["derive"] }
+proc-macro2 = { version = "1.0.95", features = [
+    "proc-macro",
+    "span-locations",
+] }
+env = "1.0.1"
