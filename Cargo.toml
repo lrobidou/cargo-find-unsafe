@@ -2,6 +2,9 @@
 name = "cargo-find-unsafe"
 version = "0.1.0"
 edition = "2024"
+authors = ["Lucas Robidou"]
+license-file = "LICENSE"
+description = "find unsafe code in Rust projects"
 
 [dependencies]
 syn = { version = "2", features = ["full", "visit"] }
